@@ -9,4 +9,8 @@ for i in range(0,dummy):
     else:
         s.append(min(n))
         n.remove(min(n))
-print(s)
+for i in range(len(s)):
+    if(i<=len(s)-2):
+        print(s[i],end=" ")
+    else:
+        print(s[i],end="")
