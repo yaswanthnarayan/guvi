@@ -5,7 +5,7 @@ for i in range(len(s)):
     r=ord(t[i])
     l=((n-96)+(r-96))
     if(l > 26)and(l%26!=0):
-        l=(((n-96)+(r-96))%26)+96)
+        l=(((n-96)+(r-96))%26)+96
         print(chr(l),end='')
     if(l%26==0):
         l=122
