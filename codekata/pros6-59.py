@@ -1,0 +1,14 @@
+x,y=input().split("|")
+z=input()
+if(len(x)>=len(y)):
+    if(len(x)==len(y)):
+        print("Impossible")
+    elif(len(x)!=len(z+y)):
+        print("Impossible")
+    elif(len(x)==len(z+y)):
+        print(x+"|"+y+z)
+else:
+    if(len(y)!=len(z+x)):
+        print("Impossible")
+    else:
+        print(x+z+"|"+y)
